@@ -1,7 +1,3 @@
-Here's a well-structured README for your **Weatherly** app:
-
----
-
 # Weatherly 🌤
 
 [![Weatherly](https://img.shields.io/badge/version-1.0.0-brightgreen)](https://github.com/not-hamid/weatherly)  
@@ -12,7 +8,6 @@ An advance, fast, and intuitive weather application that provides real-time weat
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Screenshots](#screenshots)
 - [API Reference](#api-reference)
 - [Contributing](#contributing)
 - [License](#license)
@@ -48,13 +43,6 @@ An advance, fast, and intuitive weather application that provides real-time weat
 - **Boxicons**: For icons like map, search, and weather indicators.
 - **Vanilla Tilt**: Adds a tilt effect for interactive UI.
 
-## Screenshots
-### Main Interface
-![Weatherly Main](https://user-images.githubusercontent.com/example.png)
-
-### Error Page (Location Not Found)
-![404 Error](https://user-images.githubusercontent.com/example.png)
-
 ## API Reference
 - **OpenWeather API**: Used to fetch real-time weather data. You need to sign up for an API key at [OpenWeather](https://openweathermap.org/api).
 
@@ -69,6 +57,6 @@ Replace `{city}` with the location and `{API_KEY}` with your OpenWeather API key
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/not-hamid/weatherly/issues).
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ---
