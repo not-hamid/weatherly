@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="assets/media/cloud.png" type="image/x-icon">
+    <title>Weather App</title>
+</head>
+<body>
+    <main>
+        <div class="container tilt-effect">
+            <div class="search-box">
+                <i class='bx bxs-map'></i>
+                <input type="text" class="input" placeholder="enter your location" id="input">
+                <button type="submit" id="search" class="search"><abbr title="search"><i class='bx bx-search'></i></abbr></i></button>
+            </div>
+
+            <div class="weather-box">
+                <div class="weather">
+                    <img src="assets/media/cloud.png" alt="weather image">
+                    <p class="temp">0<span>°C</span></p>
+                    <p class="des">Broken Clouds</p>
+                </div>
+            </div>
+
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class='bx bx-water'></i>
+                    <div class="hum-des">
+                        <p class="hum-value">0%</p>
+                        <p class="hum-name">Humidity</p>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    <i class='bx bx-wind'></i>
+                    <div class="wind-des">
+                        <p class="wind-value">0km/h</p>
+                        <p class="wind-name">Wind</p>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="not-found-contain">
+                <div class="not-found">
+                    <img src="assets/media/404.png" alt="404 not found">
+                    <p>Oops! Location not found!</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
